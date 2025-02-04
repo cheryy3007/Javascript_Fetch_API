@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Sofia Sans", serif;
+}
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+.header{
+    margin: 0 auto;
+}
+#input{
+    width: 255px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 16px;
+    /*color: #C3C1E5;*/
+    margin-top: 30px;
+    margin-left: 500px;
+    /*border: 2px solid grey;*/
+    border-radius: 10px;
+    background-color: #f0fff0; /* Светло-зелёный фон */
+    color: #005f47; /* Тёмно-зелёный текст */
+    border: 1px solid #00cc99;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    border: 1px solid #00cc99;
+}
+::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px; 
+    color: #005f47;
+}
+.search{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f0fff0; /* Светло-зелёный фон */
+    color: #005f47; /* Тёмно-зелёный текст */
+    border: 1px solid #00cc99;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    border: 1px solid #00cc99;
+}
+#daynight{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f0fff0; /* Светло-зелёный фон */
+    color: #005f47; /* Тёмно-зелёный текст */
+    border: 1px solid #00cc99;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    border: 1px solid #00cc99;
+}
+.kartochki{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    background-color: #f0fff0; /* Светло-зелёный фон */
+    color: #005f47; /* Тёмно-зелёный текст */
+    border: 1px solid #00cc99;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    border: 1px solid #00cc99;
+    border-radius: 10px;
+    margin-top: 20px
+  }
+  
+
+  
+  
